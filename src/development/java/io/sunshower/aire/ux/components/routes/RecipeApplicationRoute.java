@@ -9,7 +9,6 @@ import io.sunshower.aire.ux.components.RecipeApplication;
 @Route("aire-recipes")
 public class RecipeApplicationRoute extends VerticalLayout {
 
-
   public RecipeApplicationRoute() {
     add(new RecipeApplication());
   }

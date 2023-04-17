@@ -13,7 +13,7 @@
     "strict": true,
     "rootDir": ".",
     "outDir": "./dist",
-
+    "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,

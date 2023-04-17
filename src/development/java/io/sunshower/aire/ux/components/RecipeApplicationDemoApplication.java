@@ -13,7 +13,8 @@ import org.springframework.context.annotation.ComponentScan;
 @PWA(name = "RecipeApplication Demo", shortName = "Demo")
 @ComponentScan(basePackageClasses = RecipeApplicationRoute.class)
 @EnableVaadin({"io.sunshower.aire.ux.components.routes"})
-public class RecipeApplicationDemoApplication extends VerticalLayout implements AppShellConfigurator {
+public class RecipeApplicationDemoApplication extends VerticalLayout
+    implements AppShellConfigurator {
 
   public static void main(String[] args) {
     SpringApplication.run(RecipeApplicationDemoApplication.class, args);
